@@ -234,19 +234,6 @@ class HomePage extends StatelessWidget {
                                                           TextOverflow.ellipsis,
                                                     ),
                                                   ),
-                                                  TextSpan(
-                                                    text: '  mais',
-                                                    style: TextStyle(
-                                                      fontSize: 13.5,
-                                                      fontFamily: 'SF-Pro',
-                                                      fontWeight:
-                                                          FontWeight.w500,
-                                                      color: Color.fromARGB(
-                                                          255, 104, 104, 104),
-                                                      overflow:
-                                                          TextOverflow.ellipsis,
-                                                    ),
-                                                  ),
                                                 ],
                                               ),
                                             ),
@@ -399,7 +386,7 @@ class HomePage extends StatelessWidget {
                                                   ),
                                                   TextSpan(
                                                     text:
-                                                        'Cada qual sabe amar a seu modo; o modo, pouco importa; o essencial é que saiba amar..',
+                                                        'Somos especialistas na Montagem de PCs Gamers, ligue já..',
                                                     style: TextStyle(
                                                       fontFamily: 'SF-Pro',
                                                       fontSize: 13.0,

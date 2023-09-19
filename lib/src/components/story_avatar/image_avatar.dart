@@ -47,20 +47,22 @@ class ImageAvatar extends StatelessWidget {
                 child: Column(
                   children: [
                     Container(
-                      height: 69,
-                      width: 69,
+                      height: 75,
+                      width: 75,
                       decoration: BoxDecoration(
                         gradient: const LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
+                          begin: Alignment.topRight,
+                          end: Alignment.bottomLeft,
                           colors: [
                             Color(0xFF5851DB),
                             Color(0xFF833AB4),
                             Color(0xFFF77737),
                             Color(0xFFFFDC80),
+                            Color(0xFF833AB4),
                           ], // Gradient colors
                         ),
                         border: Border.all(
+                          width: 2.5,
                           style: BorderStyle.solid,
                           color: Colors.transparent,
                         ),
@@ -68,7 +70,7 @@ class ImageAvatar extends StatelessWidget {
                       ),
                       child: Container(
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.black, width: 3),
+                          border: Border.all(color: Colors.black, width: 4),
                           borderRadius: BorderRadius.circular(100),
                         ),
                         child: InkWell(
