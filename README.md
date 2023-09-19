@@ -1,16 +1,42 @@
-# instagram_layout
+## Descrição do Projeto
 
-A new Flutter project.
+Este repositório contém o código-fonte de um aplicativo desenvolvido para estudo de widgets do flutter, com objetivo de replicar o layout do instagram.
 
-## Getting Started
+## Screens
 
-This project is a starting point for a Flutter application.
+    <img src="assets/print01.jpg" width="200px" height="400px">
+    <img src="assets/print02.jpg" width="200px" height="400px">
+## Como rodar a aplicação
 
-A few resources to get you started if this is your first Flutter project:
+### Pré-requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Dart](https://dart.dev/get-dart)
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio)
+- [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Rodando a aplicação Front
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/lucasdonay/instagram_layout.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd instagram_layout
+
+# Instale as dependências
+$ flutter pub get
+
+# Execute a aplicação em modo de desenvolvimento
+$ flutter run
+```
+### Tecnologias utilizadas:
+
+- Dart 2.19.6
+- Flutter 3.7.12
+- LineIcons packge
+
+## Licença
+
+Este projeto esta sobe a licença MIT. Consulte a [LICENÇA](LICENSE) para saber mais.
