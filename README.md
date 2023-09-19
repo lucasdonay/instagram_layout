@@ -5,9 +5,9 @@ Este repositório contém o código-fonte de um aplicativo desenvolvido para est
 ## Screens
 
 
-<div align="center" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; gap: 10px;">
-    <img src="assets/print01.jpg" width="200px" height="400px">
-    <img src="assets/print02.jpg" width="200px" height="400px">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; align-content: center; gap: 10px;">
+         <img src="assets/print02.jpg" width="200px" height="400px">
+         <img src="assets/print01.jpg" width="200px" height="400px" style="margin-left:100px;">   
 </div>
 
     
